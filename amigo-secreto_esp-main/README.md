@@ -21,7 +21,7 @@
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/amigo-secreto.git
+   git clone https://github.com/SergioPerezD/amigosecreto_alura.git
    ```
 2. **Abre el proyecto**:
    - Navega a la carpeta del proyecto:
@@ -41,10 +41,20 @@
 
 ## Capturas de pantalla 📸
 
-![Captura de pantalla 1](assets/screenshot1.png)  
+![Captura de pantalla 1](assets/amigo-secreto-principal.png)  
 *Interfaz principal para agregar nombres.*
 
-![Captura de pantalla 2](assets/screenshot2.png)  
+
+![Captura de pantalla 2](assets/amigo-secreto-sin.png)  
+*Sin nombres ingresados.*
+
+![Captura de pantalla 2](assets/amigo-secreto-duplicado.png)  
+*Nombre duplicado.*
+
+![Captura de pantalla 2](assets/amigo-secreto-listado.png)  
+*Listado de nombres.*
+
+![Captura de pantalla 2](assets/amigo-secreto-es.png)  
 *Resultado del sorteo aleatorio.*
 
 ## Estructura del proyecto 📂
@@ -55,7 +65,13 @@ amigo-secreto/
 ├── style.css           # Estilos CSS para la interfaz
 ├── app.js              # Lógica de la aplicación en JavaScript
 ├── assets/             # Carpeta para imágenes y recursos
+│   └── amigo-secreto-principal.png
+│   └── amigo-secreto-sin.png
+│   └── amigo-secreto-duplicado.png
+│   └── amigo-secreto-listado.png
+│   └── amigo-secreto-es.png
 │   └── amigo-secreto.png
+│   └── play_circle_outline.png
 ├── LICENSE             # Licencia MIT para el proyecto
 ├── README.md           # Este archivo
 ```
@@ -96,17 +112,8 @@ Este proyecto fue desarrollado utilizando **Visual Studio Code**, un editor de c
 
 ## Autor ✒️
 
-- **Tu Nombre** - [Enlace a tu perfil de GitHub](https://github.com/tu-usuario)
+- **Sergio Perez Diaz** - https://github.com/SergioPerezD
 
 ---
 
 ¡Gracias por visitar este proyecto! Esperamos que te sea útil para organizar tus intercambios de regalos. 😊
-
----
-
-### Notas adicionales:
-- Asegúrate de reemplazar `tu-usuario` con tu nombre de usuario de GitHub.
-- Si tienes capturas de pantalla, guárdalas en la carpeta `assets/` y actualiza las rutas en el `README.md`.
-- El archivo `LICENSE` debe estar en la raíz del proyecto para que GitHub lo reconozca automáticamente.
-
-¡Listo! Ahora tu `README.md` incluye una sección específica sobre el uso de **Visual Studio Code**, lo que será útil para otros desarrolladores que quieran contribuir al proyecto. 🚀
