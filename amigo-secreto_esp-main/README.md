@@ -21,7 +21,7 @@
 
 1. **Clona el repositorio**:
    ```bash
-   git clone [https://github.com/SergioPerezD/amigosecreto_alura.git](https://github.com/SergioPerezD/amigosecreto_alura.git)
+   git clone https://github.com/SergioPerezD/amigosecreto_alura.git
    ```
 2. **Abre el proyecto**:
    - Navega a la carpeta del proyecto:
