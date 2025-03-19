@@ -1,82 +1,112 @@
-Amigo Secreto 🎁
-¡Bienvenido al proyecto Amigo Secreto! Esta es una aplicación web simple que permite a los usuarios agregar nombres de amigos a una lista y realizar un sorteo aleatorio para determinar quién es el "amigo secreto". Perfecto para organizar intercambios de regalos en eventos sociales.
 
-Características ✨
-Agregar nombres: Ingresa los nombres de tus amigos en un campo de texto y agrégalos a la lista.
+# Amigo Secreto 🎁
 
-Validación de entrada: Evita nombres vacíos o duplicados.
+¡Bienvenido al proyecto **Amigo Secreto**! Esta es una aplicación web simple que permite a los usuarios agregar nombres de amigos a una lista y realizar un sorteo aleatorio para determinar quién es el "amigo secreto". Perfecto para organizar intercambios de regalos en eventos sociales.
 
-Lista visible: Visualiza todos los nombres agregados en una lista.
+## Características ✨
 
-Sorteo aleatorio: Selecciona un nombre al azar de la lista para determinar el amigo secreto.
+- **Agregar nombres**: Ingresa los nombres de tus amigos en un campo de texto y agrégalos a la lista.
+- **Validación de entrada**: Evita nombres vacíos o duplicados.
+- **Lista visible**: Visualiza todos los nombres agregados en una lista.
+- **Sorteo aleatorio**: Selecciona un nombre al azar de la lista para determinar el amigo secreto.
 
-Tecnologías utilizadas 🛠️
-HTML: Estructura de la página web.
+## Tecnologías utilizadas 🛠️
 
-CSS: Estilos y diseño responsive.
+- **HTML**: Estructura de la página web.
+- **CSS**: Estilos y diseño responsive.
+- **JavaScript**: Lógica para agregar nombres, validar entradas y realizar el sorteo.
+- **Visual Studio Code**: Editor de código utilizado para desarrollar el proyecto.
 
-JavaScript: Lógica para agregar nombres, validar entradas y realizar el sorteo.
+## Cómo usar 🚀
 
-Cómo usar 🚀
-Clona el repositorio:
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/tu-usuario/amigo-secreto.git
+   ```
+2. **Abre el proyecto**:
+   - Navega a la carpeta del proyecto:
+     ```bash
+     cd amigo-secreto
+     ```
+   - Abre el proyecto en **Visual Studio Code** o tu editor preferido.
+   - Abre el archivo `index.html` en tu navegador.
 
-bash
-Copy
-git clone https://github.com/SergioPerezD/amigosecreto_alura.git
-Abre el proyecto:
+3. **Agrega nombres**:
+   - Escribe el nombre de un amigo en el campo de texto y haz clic en "Añadir".
+   - Los nombres se mostrarán en la lista debajo del campo de entrada.
 
-Navega a la carpeta del proyecto:
+4. **Realiza el sorteo**:
+   - Haz clic en el botón "Sortear amigo" para seleccionar un nombre al azar.
+   - El resultado se mostrará en la pantalla.
 
-bash
-Copy
-cd amigo-secreto
-Abre el archivo index.html en tu navegador.
+## Capturas de pantalla 📸
 
-Agrega nombres:
+![Captura de pantalla 1](assets/screenshot1.png)  
+*Interfaz principal para agregar nombres.*
 
-Escribe el nombre de un amigo en el campo de texto y haz clic en "Añadir".
+![Captura de pantalla 2](assets/screenshot2.png)  
+*Resultado del sorteo aleatorio.*
 
-Los nombres se mostrarán en la lista debajo del campo de entrada.
+## Estructura del proyecto 📂
 
-Realiza el sorteo:
-
-Haz clic en el botón "Sortear amigo" para seleccionar un nombre al azar.
-
-El resultado se mostrará en la pantalla.
-
-Capturas de pantalla 📸
-Captura de pantalla 1
-Interfaz principal para agregar nombres.
-
-Captura de pantalla 2
-Resultado del sorteo aleatorio.
-
-Estructura del proyecto 📂
-Copy
+```
 amigo-secreto/
 ├── index.html          # Archivo principal de la aplicación
 ├── style.css           # Estilos CSS para la interfaz
 ├── app.js              # Lógica de la aplicación en JavaScript
 ├── assets/             # Carpeta para imágenes y recursos
 │   └── amigo-secreto.png
+├── LICENSE             # Licencia MIT para el proyecto
 ├── README.md           # Este archivo
-Contribuir 🤝
+```
+
+## Licencia 📄
+
+Este proyecto está bajo la licencia **MIT**. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+---
+
+## Contribuir 🤝
+
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
 
-Haz un fork del repositorio.
+1. Haz un **fork** del repositorio.
+2. Crea una nueva rama (`git checkout -b nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añade nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin nueva-funcionalidad`).
+5. Abre un **Pull Request** en GitHub.
 
-Crea una nueva rama (git checkout -b nueva-funcionalidad).
+---
 
-Realiza tus cambios y haz commit (git commit -m 'Añade nueva funcionalidad').
+## Desarrollo en Visual Studio Code 💻
 
-Haz push a la rama (git push origin nueva-funcionalidad).
+Este proyecto fue desarrollado utilizando **Visual Studio Code**, un editor de código ligero pero potente. Si deseas trabajar en el proyecto, te recomendamos usar este editor. Aquí tienes algunos tips:
 
-Abre un Pull Request en GitHub.
+- **Extensiones recomendadas**:
+  - **Live Server**: Para previsualizar la aplicación en tiempo real.
+  - **Prettier**: Para formatear el código automáticamente.
+  - **ESLint**: Para mantener un código limpio y libre de errores.
 
-Licencia 📄
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+- **Cómo abrir el proyecto**:
+  1. Abre Visual Studio Code.
+  2. Selecciona `File > Open Folder` y elige la carpeta del proyecto.
+  3. ¡Listo! Puedes comenzar a editar los archivos.
 
-Autor ✒️
-Sergio Perez Diaz - [perfil de GitHub](https://github.com/SergioPerezD)
+---
+
+## Autor ✒️
+
+- **Tu Nombre** - [Enlace a tu perfil de GitHub](https://github.com/tu-usuario)
+
+---
 
 ¡Gracias por visitar este proyecto! Esperamos que te sea útil para organizar tus intercambios de regalos. 😊
+
+---
+
+### Notas adicionales:
+- Asegúrate de reemplazar `tu-usuario` con tu nombre de usuario de GitHub.
+- Si tienes capturas de pantalla, guárdalas en la carpeta `assets/` y actualiza las rutas en el `README.md`.
+- El archivo `LICENSE` debe estar en la raíz del proyecto para que GitHub lo reconozca automáticamente.
+
+¡Listo! Ahora tu `README.md` incluye una sección específica sobre el uso de **Visual Studio Code**, lo que será útil para otros desarrolladores que quieran contribuir al proyecto. 🚀
