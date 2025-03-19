@@ -21,7 +21,7 @@
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/SergioPerezD/amigosecreto_alura.git
+   git clone [https://github.com/SergioPerezD/amigosecreto_alura.git](https://github.com/SergioPerezD/amigosecreto_alura.git)
    ```
 2. **Abre el proyecto**:
    - Navega a la carpeta del proyecto:
@@ -112,7 +112,7 @@ Este proyecto fue desarrollado utilizando **Visual Studio Code**, un editor de c
 
 ## Autor ✒️
 
-- **Sergio Perez Diaz** - https://github.com/SergioPerezD
+- **Sergio Perez Diaz** - [https://github.com/SergioPerezD](https://github.com/SergioPerezD)
 
 ---
 
